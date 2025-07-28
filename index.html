@@ -80,29 +80,41 @@
 
 <main>
     <!--? slider Area Start-->
- <div class="slider-area slider-height position-relative" data-background="assets/img/hero/h1_hero.jpg">
-    <div class="slider-active">
-        <!-- Single Slider -->
-        <div class="single-slider">
-            <div class="slider-cap-wrapper">
-                <div class="hero-caption">
-                    <span>Best Service</span>
-                    <h1 data-animation="fadeInLeft" data-delay=".4s">SAP Consulting</h1>
-                    <p data-animation="fadeInLeft" data-delay=".6s">To empower organizations with robust, scalable, and tailored SAP solutions</p>
-                    <!-- Hero Btn -->
-                    <a href="services.html" class="btn" data-animation="fadeInLeft" data-delay=".9s">Explore Services</a>
-                </div>
-                <div class="hero-img">
-                    <img src="assets/img/hero/videoimg.jpg" alt="Hero Image" data-animation="fadeInRight" data-transition-duration="5s">
-                </div>
-            </div>
+<div class="slider-area slider-height position-relative" style="overflow: hidden; background-image: url('assets/img/hero/h1_hero.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <div class="slider-active">
+    <!-- Single Slider -->
+    <div class="single-slider">
+      <div class="slider-cap-wrapper d-flex flex-wrap align-items-center justify-content-between">
+        
+        <!-- Left Text Content -->
+        <div class="hero-caption" style="flex: 1 1 50%; padding-left: 80px; min-width: 300px;">
+          <span>Best Service</span>
+          <h1 data-animation="fadeInLeft" data-delay=".4s">SAP Consulting</h1>
+          <p data-animation="fadeInLeft" data-delay=".6s">
+            To empower organizations with robust, scalable, and tailored SAP solutions
+          </p>
+          <a href="services.html" class="btn mb-20" data-animation="fadeInLeft" data-delay=".9s">
+            Explore Services
+          </a>
         </div>
-    </div>
-    <!-- Video icon -->
-    <div class="video-icon">
-        <a class="popup-video btn-icon" href="assets/img/hero/video/1.mp4"><i class="fas fa-play"></i></a>
-    </div>
+
+        <!-- Right Video Content -->
+        <div class="hero-video" style="flex: 1 1 50%; min-width: 300px;">
+  <video id="heroVideo" autoplay playsinline controls style="width: 100%; height: 110%;">
+    <source src="assets/img/hero/video/1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 
     <!-- slider Area End-->
 
@@ -170,25 +182,24 @@
 
 
     <!--! About Area Start 01 -->
- <section class="about-area fix mt-150">
+ <section class="about-area fix mt-50 ">
         <!--Right Contents  -->
         <div class="about-img">
             
         </div>
         <!-- left Contents -->
-        <div class="about-details mt-30">
-           <div class="right-caption mt-20">
+        <div class="about-details">
+           <div class="right-caption">
                 <!-- Section Tittle -->
-                <div class="section-tittle mt-20">
-                    <h2 class="mt-100">CEO Philosophy</h2>
+                <div class="section-tittle ">
+                    <h2>CEO Philosophy</h2>
                 </div>
                 <div class="about-more fix">
                     <p>At SPRING Consultancy, I believe technology is not just about systems—it’s about people, processes, and purposeful change. Our mission is to bridge the gap between business needs and SAP excellence by delivering reliable, intelligent, and adaptable solutions that drive real outcomes. We don’t measure success merely by project completion, but by the value our clients gain through continuity, efficiency, and innovation.<br>In a fast-evolving digital landscape, organizations need more than just technical support—they need a trusted partner. At SPRING, we commit to that partnership with integrity, agility, and a deep-rooted understanding of enterprise processes.<br>
                          My vision is to build SPRING as a benchmark of SAP support excellence in Sri Lanka and beyond—where every engagement reflects our core values: trust, expertise, and transformation
                         </p>
-                  
-                    <div class="footer-tittles mb-100">
-                        <p>CEO <br>Founder & Chief Executive Officer<br>SPRING Consultancy Pvt Ltd</p>
+                    <div class="footer-tittles">
+                        <p >CEO <br>Founder & Chief Executive Officer<br>SPRING Consultancy Pvt Ltd</p>
                     </div>
                 </div>
             </div>
@@ -200,12 +211,12 @@
 
 
     <!--! About Area Start 02-->
-    <div class="about-area2">
+    <div class="about-area2 pt-30 mt-20">
         <!-- left Contents -->
         <div class="about-details2">
             <div class="right-caption2">
                 <!-- Section Tittle -->
-                <div class="section-tittle">
+                <div class="section-tittle mt-20 pt-30">
                     <h2>Our Values</h2>
                 </div> 
                 <div class="collapse-wrapper">
@@ -601,7 +612,7 @@
               <img src="assets/img/gallery/team_area/SAP FI Consultants.png" alt="SAP FI Consultants">
             </div>
             <div class="team-caption mt-3">
-              <p>SAP FI Consultants</p>
+              <p>SAP FI Consultant</p>
             </div>
           </div>
         </div>
@@ -612,7 +623,7 @@
               <img src="assets/img/gallery/team_area/SAP CO Consultants.png" alt="SAP CO Consultants">
             </div>
             <div class="team-caption mt-3">
-              <p>SAP CO Consultants</p>
+              <p>SAP CO Consultant</p>
             </div>
           </div>
         </div>
@@ -623,7 +634,7 @@
               <img src="assets/img/gallery/team_area/SAP MM Consultants.png" alt="SAP MM Consultants">
             </div>
             <div class="team-caption mt-3">
-              <p>SAP MM Consultants</p>
+              <p>SAP MM Consultant</p>
             </div>
           </div>
         </div>
@@ -634,7 +645,7 @@
               <img src="assets/img/gallery/team_area/SAP SD Consultants.png" alt="SAP SD Consultants">
             </div>
             <div class="team-caption mt-3">
-              <p>SAP SD Consultants</p>
+              <p>SAP SD Consultant</p>
             </div>
           </div>
         </div>
@@ -645,7 +656,7 @@
               <img src="assets/img/gallery/team_area/SAP EWM Consultants.png" alt="SAP EWM Consultants">
             </div>
             <div class="team-caption mt-3">
-              <p>SAP EWM Consultants</p>
+              <p>SAP EWM Consultant</p>
             </div>
           </div>
         </div>
@@ -656,7 +667,7 @@
               <img src="assets/img/gallery/team_area/SAP PP Consultants.png" alt="SAP PP Consultants">
             </div>
             <div class="team-caption mt-3">
-              <p>SAP PP Consultants</p>
+              <p>SAP PP Consultant</p>
             </div>
           </div>
         </div>
@@ -667,7 +678,7 @@
               <img src="assets/img/gallery/team_area/SAP QM Consultants.webp" alt="SAP QM Consultants">
             </div>
             <div class="team-caption mt-3">
-              <p>SAP QM Consultants</p>
+              <p>SAP QM Consultant</p>
             </div>
           </div>
         </div>
@@ -678,7 +689,7 @@
               <img src="assets/img/gallery/team_area/SAP PM Consultants.png" alt="SAP PM Consultants">
             </div>
             <div class="team-caption mt-3">
-              <p>SAP PM Consultants</p>
+              <p>SAP PM Consultant</p>
             </div>
           </div>
         </div>
@@ -689,7 +700,7 @@
               <img src="assets/img/gallery/team_area/SAP HCMSF Consultants.jpg" alt="SAP HCM/SF Consultants">
             </div>
             <div class="team-caption mt-3">
-              <p>SAP HCM/SF Consultants</p>
+              <p>SAP HCM/SF Consultant</p>
             </div>
           </div>
         </div>
@@ -725,7 +736,7 @@
             <img src="assets/img/gallery/team_area/SAP Basis Consultants.png" alt="SAP Basis Consultants">
           </div>
           <div class="team-caption mt-3">
-            <p>SAP Basis Consultants</p>
+            <p>SAP Basis Consultant</p>
           </div>
         </div>
       </div>
@@ -944,5 +955,25 @@
     }
   });
 </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const video = document.getElementById("heroVideo");
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          video.currentTime = 0; // Restart video when visible
+          video.play();
+        } else {
+          video.pause();
+        }
+      });
+    }, { threshold: 0.5 });
+
+    observer.observe(video);
+  });
+</script>
+
+
 </body>
 </html>
